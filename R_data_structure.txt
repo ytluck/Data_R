@@ -1,0 +1,9 @@
+rm(list=ls())
+library(ggplot2)
+field <- c("数据可视化","机器学习","数学","统计学","计算机科学","沟通与演讲","领域知识")
+score <- c(2,3,3.5,4.5,4,3,1)
+structure <- data.frame(field,score)
+
+ggplot(structure,aes(x=field,y=score,fill="green"))+geom_bar(stat="identity")
+
+

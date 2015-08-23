@@ -6,4 +6,7 @@ structure <- data.frame(field,score)
 
 ggplot(structure,aes(x=field,y=score,fill="green"))+geom_bar(stat="identity")
 
+data2 <- read.csv(url("http://stat.columbia.edu/~rachel/datasets/nyt1.csv"))
+head(data2
+
 

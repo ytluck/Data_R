@@ -1,3 +1,4 @@
+http://stat.columbia.edu/~rachel/
 rm(list=ls())
 library(ggplot2)
 field <- c("数据可视化","机器学习","数学","统计学","计算机科学","沟通与演讲","领域知识")
@@ -7,6 +8,6 @@ structure <- data.frame(field,score)
 ggplot(structure,aes(x=field,y=score,fill="green"))+geom_bar(stat="identity")
 
 data2 <- read.csv(url("http://stat.columbia.edu/~rachel/datasets/nyt1.csv"))
-head(data2
+head(data2)
 
 
